@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 # Student data
 students = [
-    {"Name": "pavan", "Age": 22, "Course": "Computer Science"},
-    {"Name": "siva", "Age": 21, "Course": "Mathematics"},
-    {"Name": "jaya", "Age": 23, "Course": "Business"}
+    {"Sno":1,"Name": "pavan", "Age": 22, "course": "Computer Science"},
+    {"Sno":2,"Name": "siva", "Age": 21, "course": "Mathematics"},
+    {"Sno":3,"Name": "jaya", "Age": 23, "course": "Business"}
 ]
 
 # Route for seeing student data
